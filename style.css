@@ -36,14 +36,15 @@ body {
 h1 {
     font-size: 3rem;
     font-weight: 300;
+    margin-top: 1.5rem;
 }
 main img {
     width: 100%;
     margin: 3rem 0;
 }
 h1 span{
-    color: var(--p-CR);
-    font-weight: 600;
+    color: var(--very-dark-blue);
+    font-weight: 700;
 }
 p {
     color: var(--p-CR);
