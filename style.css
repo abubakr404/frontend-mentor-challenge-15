@@ -11,7 +11,7 @@
     /* --main-BG: var(--linear-gradient-1); */
     --body-BG: var(--white);
     --main-CR: var(--gray);
-    --p-CR: var(--very-dark-blue)
+    --p-CR: var(--main-CR)
 }
 *, :after, :before {
     margin: 0;
@@ -50,11 +50,14 @@ p {
 }
 .container h3 {
     font-weight: 300;
-    color: var(--p-CR);
+    color: var(--very-dark-blue);
 }
 footer p {
-    font-size: 0.875rem;
-    margin-top: 2rem;
+    font-size: small;
+    margin-top: 1.5rem;
+}
+footer {
+    padding-top: 2rem;
 }
 .container {
     max-width: 40rem;
