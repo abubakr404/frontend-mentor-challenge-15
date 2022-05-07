@@ -108,7 +108,7 @@ form.error .input-container input+p {
     font-style: italic;
 }
 input::placeholder {
-    color: hsl(223deg 100% 88% / 90%);
+    color: var(--pale-blue);
 }
 input:focus {
     outline: none;
