@@ -48,8 +48,9 @@ h1 span{
 p {
     color: var(--p-CR);
 }
-.container p {
-    font-size: 1.3rem;
+.container h3 {
+    font-weight: 300;
+    color: var(--p-CR);
 }
 footer p {
     font-size: 0.875rem;
@@ -148,9 +149,6 @@ button:hover,button:focus,button:active {
 @media (min-width: 1080px) {
     :root {
         font-size: 16px;
-    }
-    .container {
-        padding: 1.875rem 0rem;
     }
     img:last-of-type {
         margin: 0;
