@@ -37,7 +37,7 @@ h1 {
     font-size: 3rem;
     font-weight: 300;
 }
-img:last-of-type {
+main img {
     width: 100%;
     margin: 3rem 0;
 }
